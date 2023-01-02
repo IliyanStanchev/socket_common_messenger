@@ -1,5 +1,6 @@
 package bg.tu_varna.sit.si.models;
 
+import bg.tu_varna.sit.si.enumerables.ChatType;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -14,6 +15,25 @@ public class Chat implements Serializable {
 
     @Column(name = "NAME", length = 128)
     private String name;
+
+    @Column(name = "CHAT_TYPE")
+    private ChatType chatType;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ChatType getChatType() {
+        return chatType;
+    }
+
+    public void setChatType(ChatType chatType) {
+        this.chatType = chatType;
+    }
 
     public Chat() {
     }

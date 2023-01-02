@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e46d69-9390-429e-ae9a-b1321905cd52" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/socket_common_messenger_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/UserNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/requests/ResponseCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/requests/SocketRequests.java" afterDir="false" />
+    <list default="true" id="77e46d69-9390-429e-ae9a-b1321905cd52" name="Changes" comment="Registration/Edit profile/Notifications">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/enumerables/ChatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/ChatMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bg/tu_varna/sit/si/models/Chat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -62,6 +58,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bg.tu_varna.sit.si.enumerables" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +76,7 @@
       <workItem from="1672235074450" duration="4133000" />
       <workItem from="1672569845787" duration="6323000" />
       <workItem from="1672591824396" duration="21000" />
-      <workItem from="1672654420700" duration="597000" />
+      <workItem from="1672654420700" duration="3974000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667743869507</created>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667743869507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Registration/Edit profile/Notifications">
+      <created>1672656175598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672656175598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Registration/Edit profile/Notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration/Edit profile/Notifications" />
   </component>
 </project>
