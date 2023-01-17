@@ -4,4 +4,5 @@ public enum ChatType {
 
     SYSTEM,
     USER,
+    GROUP
 }

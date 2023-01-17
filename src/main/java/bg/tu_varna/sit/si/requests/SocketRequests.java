@@ -10,5 +10,7 @@ public class SocketRequests {
         GET_MESSAGES,
         GET_USERS,
         EDIT_PROFILE,
+        GET_CHATS,
+        SEARCH_CHAT,
     }
 }

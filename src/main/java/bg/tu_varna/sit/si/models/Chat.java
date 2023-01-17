@@ -4,6 +4,7 @@ import bg.tu_varna.sit.si.enumerables.ChatType;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 @Entity(name = "CHATS")
 public class Chat implements Serializable {
@@ -18,6 +19,9 @@ public class Chat implements Serializable {
 
     @Column(name = "CHAT_TYPE")
     private ChatType chatType;
+
+    @Column(name = "LAST_ACTIVITY")
+    private LocalDateTime lastActivity;
 
     public void setId(int id) {
         this.id = id;
@@ -41,6 +45,14 @@ public class Chat implements Serializable {
     public Chat(String name) {
         this.id = 0;
         this.name = name;
+    }
+
+    public LocalDateTime getLastActivity() {
+        return lastActivity;
+    }
+
+    public void setLastActivity(LocalDateTime lastActivity) {
+        this.lastActivity = lastActivity;
     }
 
     public int getId() {
